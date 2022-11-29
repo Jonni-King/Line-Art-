@@ -89,20 +89,5 @@ $(document).ready(function(){
 
 
 
-// var filtred = false;
-// $('.nav-vse').on('click', function(){
-//   if (filtered === false) {
-//     $('.slider').slick('slickFilter','.slider__items');
-//     $(this).text('Все');
-//     filtered = true;
-//   } else {
-//     $('.slider').slick('slickUnfilter');
-//     $(this).tet('Фото');
-//     filtered =false;
-//   }
-//   return false;
-// });
-
-
 
 
