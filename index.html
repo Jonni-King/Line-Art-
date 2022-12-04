@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Photo Studia</title>
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/20ba067847/project/style.css">
-
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/media.css">
     <link rel="stylesheet" href="/css/slick.css">
@@ -23,10 +21,10 @@
                     <img src="/img/logo.svg" class="logo"></img>
                 </a>
                 <ul class="header__info">
-                    <li class="header__info-item"><a href="#">Проекты</a></li>
-                    <li class="header__info-item"><a href="#">Услуги</a></li>
-                    <li class="header__info-item"><a href="#">О студии</a></li>
-                    <li class="header__info-item"><a href="#">Связь</a></li>
+                    <li class="header__info-item"><a href="#container__info">Проекты</a></li>
+                    <li class="header__info-item"><a href="#description">Услуги</a></li>
+                    <li class="header__info-item"><a href="#container__info">О студии</a></li>
+                    <li class="header__info-item"><a href="#contacts">Связь</a></li>
                 </ul>
                 <button class="nav-button">
                     <img class="nav-btn-img" src="/img/burger/nav.svg" alt="">
@@ -47,7 +45,6 @@
             </div>
         </div>
     </header>
-
 
     <main class="main">
         <section class="photo">
@@ -116,7 +113,7 @@
                     <div class="slider__item">
                         <img class="img__slide" src="/img/slider/22.jpg" alt="">
                     </div>
-                      <!-- <div class="slider__item">
+                    <!-- <div class="slider__item">
                         <img class="img__slide" src="/img/slider/24.jpg" alt="">
                     </div>
                     <div class="slider__item">
@@ -191,7 +188,6 @@
                     <div class="slider__item">
                         <img class="img__slide" src="/img/slider/10.jpg" alt="">
                     </div>  -->
-
                 </div>
             </div>
         </section>
@@ -199,7 +195,6 @@
         <section class="info">
             <div class="container">
                 <h2 class="info__title">Почему мы?</h2>
-
                 <ul class="info__items">
                     <li class="info__item">
                         <i class="info__icon"></i>
@@ -222,7 +217,6 @@
                             осветительная техника и оборудование для аэрофотосъемки.</p>
                     </li>
                 </ul>
-
             </div>
         </section>
 
@@ -231,37 +225,32 @@
                 <h3 class="form__title">ХОТИТЕ ЗАКАЗАТЬ ПРОМЫШЛЕННУЮ СЪЕМКУ? НАПИШИТЕ НАМ!</h3>
                 <div class="form__items">
                     <div class="form__box-elements">
-
                         <div class="form__box-left">
-                            <label><input class="form-input" placeholder="Имя" name="Имя" type="text"></label>
-                            <label><input class="form-input" type="email" placeholder="Email" name="Email"></label>
+                            <input class="form-input" placeholder="Имя" name="Имя" type="text">
+                            <input class="form-input" type="email" placeholder="Email" name="Email">
                         </div>
                         <div class="form__box-centr">
-                            <label><input class="form-input" type="text" placeholder="Телефон" name="Телефон"></label>
-                            <label class="form-input_list"><select class="form-select styler">
-                                    <option>Фото</option>
-                                    <option>Видео</option>
-                                    <option>Аудио</option>
-                                    <option>Файл</option>
-                                </select></label>
+                            <input class="form-input" type="text" placeholder="Телефон" name="Телефон">
+                            <select class="form-select styler">
+                                <option>Фото</option>
+                                <option>Видео</option>
+                                <option>Аудио</option>
+                                <option>Файл</option>
+                            </select>
                         </div>
                         <div class="form__box-right">
-                            <label>
-                                <textarea placeholder="Расскажите подробнее"></textarea>
-                            </label>
+                            <textarea placeholder="Расскажите подробнее"></textarea>
                         </div>
                     </div>
                     <div class="form__box-bottom">
-                        <label><button class="btn-form" type="submit">Отправить</button></label>
-                        <label><input class="checkbox" type="checkbox">Согласен на обработку персональных
-                            данных</label>
+                        <button class="btn-form" type="submit">Отправить</button>
+                        <label><input class="checkbox" type="checkbox">Согласен на обработку персональных данных</label>
                     </div>
                 </div>
             </div>
-
         </section>
 
-        <section class="description">
+        <section id="description" class="description">
             <div class="container">
                 <div class="description__items">
                     <div class="description__item">
@@ -270,7 +259,8 @@
                         </div>
                         <div class="description__box-item">
                             <div class="description__text">
-                                <p>Работник в современной компании — это, прежде всего, сотрудник, разделяющий её
+                                <p class="text__text-item">Работник в современной компании — это, прежде всего,
+                                    сотрудник, разделяющий её
                                     ценности и
                                     цели. Съёмка человека на производстве — жанр фотографии, в котором акцент делается
                                     на
@@ -294,7 +284,6 @@
                             </div>
                             <div class="description__text">
                                 <h3 class="description__title">Задачи и цели фотосъёмки</h3>
-
                                 <p>Сначала совместно с клиентом утверждается концепция фотосъёмки, учитываются
                                     корпоративные предпочтения компании, в том числе графический язык, элементы
                                     визуального стиля, цветовые решения.
@@ -316,7 +305,6 @@
                         <div class="description__box-item">
                             <div class="description__text">
                                 <h3 class="description__title">Технические решения фотосъёмки людей на производстве</h3>
-
                                 <p>При необходимости подбираются фильтры, устанавливается и настраивается свет. На
                                     промышленном объекте выбираются отвечающие задаче ракурсы.
                                     <span>Фотографии, на которых изображены рабочие операции и процесс труда,
@@ -344,9 +332,8 @@
                                 <div class="description__photo">
                                     <img src="/img/description5.jpg" class="description__img5"></img>
                                 </div>
-                                <div class="container__info">
+                                <div id="container__info" class="container__info">
                                     <h3 class="description__title">Портфолио съёмки рабочих, сотрудников, персонала</h3>
-
                                     <p>У Студии большой опыт успешной фотосъёмки сотрудников для разного типа задач. В
                                         нашем
                                         портфолио несколько десятков масштабных проектов по фото– и видеосъёмке рабочих,
@@ -366,7 +353,6 @@
                                     </p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="description__item">
@@ -441,37 +427,31 @@
                 </div>
             </div>
 
-            <div class="container footer">
+            <div class="container footer" id="contacts">
                 <img src="/img/logo.svg" alt="" class="logo__footer">
                 <ul class="footer__works">
-                    <li class="footer__info"><a href="#">Проекты</a></li>
-                    <li class="footer__info"><a href="#">Услуги</a></li>
-                    <li class="footer__info"><a href="#">О студии</a></li>
-                    <li class="footer__info"><a href="#">Связь</a></li>
+                    <li class="footer__info"><a href="#container__info">Проекты</a></li>
+                    <li class="footer__info"><a href="#description">Услуги</a></li>
+                    <li class="footer__info"><a href="#container__info">О студии</a></li>
+                    <li class="footer__info"><a href="#contacts">Связь</a></li>
                 </ul>
                 <ul class="contacts">
-                    <li class="footer__contacts"><a class="contacts__faccebook" href="#"></a></li>
-                    <li class="footer__contacts"><a class="contacts__vk" href="#"></a></li>
-                    <li class="footer__contacts"><a class="contacts__instagram" href="#"></a></li>
-                    <li class="footer__contacts"><a class="contacts__youtube" href="#"></a></li>
+                    <li class="footer__contacts"><a class="contacts__faccebook" href="#"><img class="contacts__footer"
+                                src="/img/facebook.svg" alt=""></a></li>
+                    <li class="footer__contacts"><a class="contacts__vk" href="#"><img class="contacts__footer"
+                                src="/img/vk.svg" alt=""></a></li>
+                    <li class="footer__contacts"><a class="contacts__instagram" href="#"><img class="contacts__footer"
+                                src="/img/instagram.svg" alt=""></a></li>
+                    <li class="footer__contacts"><a class="contacts__youtube" href="#"><img class="contacts__footer"
+                                src="/img/youtube.svg" alt=""></a></li>
                 </ul>
                 <span class="footer__corp">&copy; Line Artworks, 2013-2021</span>
             </div>
-
         </footer>
-
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="/js/slick.min.js"></script>
         <script src="/js/js.js"></script>
-
-
-
-
-
-
-
-
 
 </body>
 
